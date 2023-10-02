@@ -1,0 +1,95 @@
+@media screen and (max-width:600px) {
+    .my-parent {
+        position: relative;
+        height: 100vh;
+    }
+    .caption {
+        position: absolute;
+        left: 150px;
+        top: 10px;
+        width: 30px;
+        letter-spacing: 5px;
+    }
+    .line{
+        border: 1px solid rgb(63, 125, 206);
+        position: absolute;
+        top: 70px;
+        left: 95px;
+        width: 300px;
+    }
+    .no1, .no2, .no3{
+        height: 25px;
+        width: 25px;
+        background-color: rgb(63, 125, 206);
+        border-radius: 100%;
+        padding: 0 8px 22px;
+    }
+    .no1 {
+        position: absolute;
+        top: 58px;
+        left: 75px;
+    }
+    .no2 {
+        position: absolute;
+        top: 58px;
+        left: 230px;
+    }
+    .no3 {
+        position: absolute;
+        top: 58px;
+        left: 390px;
+    }
+    .confetti {
+        position: absolute;
+        width: 110px;
+        top: 130px;
+        left: 200px;
+    }
+    .under {
+        display: flex;
+        color: rgb(63, 125, 206);
+        position: absolute;
+        top: 80px;
+    }
+    .under h6 {
+        margin-left: 40px;
+    }
+    h4 {
+        position: absolute;
+        top: 230px;
+        left: 160px;
+    }
+    .p1 {
+        position: absolute;
+        top: 260px;
+        left: 140px;
+    }
+    .hint {
+        position: absolute;
+        top: 370px;
+        left: 160px;
+        text-decoration: none;
+    }
+    .p2 {
+        position: absolute;
+        top: 410px;
+        left: 140px;
+    }
+    .learn {
+        position: absolute;
+        top: 510px;
+        left: 200px; 
+        text-decoration: none;
+    }
+    button {
+        position: absolute;
+        top: 560px;
+        left: 110px;
+        border: none;
+        height: 50px;
+        width: 300px;
+        background: rgb(70, 119, 255);
+        border-radius: 15px;
+
+    }
+}
